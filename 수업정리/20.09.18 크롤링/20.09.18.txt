@@ -1,0 +1,35 @@
+*************** DB 설치 *************** 
+
+	1. sql browser = 처음 받아봤던 DB 프로그램 (sql로 만든 DB를 보는용도)
+	2. MariaDB = 대표적인 무료 DB (외부DB로 직접 DB를 만들어 보는용도)
+
+쿼리 누르고 CREATE DATABASE pythondb -> USE pythondb -> 생성CREATE TABLE test(NAME VARCHAR(10), NO VARCHAR(20) *VARCHAR는 데이터를 절약하기 위해
+		-> dsec test(test의 모습을 한번 보여줘!) -> INSERT INTO test VALUES('ha','000') 데이터 집어넣기 -> SELECT * FROM test 테스트의 내용을 보여줘!
+
+
+
+
+
+*************** 파이썬과 mariaDB 연결해주는 방법 *************** 
+
+	1. pycharm setting -> project -> interpreter -> mysql-connector설치 
+	2. 터미널에서 pip install mysql-connector 로도 설치가 가능하다
+
+
+
+
+
+*************** DB commit방법 ***************
+
+
+	1. 코딩프로그램으로 짜기
+	2. DB프로그램에서 수정후 commit하기 
+
+
+
+
+
+*************** Data 크롤링 ***************
+
+	1. 아나콘다
+	2. 구글 Colaboratory
